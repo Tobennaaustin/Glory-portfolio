@@ -1,0 +1,65 @@
+/* for big phone */
+@media screen and (max-width:699px){
+    main{ margin-left: 10%; margin-right: 10%; display: flex; align-items: center; flex-direction: column; padding: 30px; justify-content: space-between;}
+
+    main .main-txt{ max-width: 100%; line-height: 90px; margin-bottom: 50px;}
+
+    main .main-txt h1{font-size: 4em;}
+
+    .resent-design .resent-design-txt{margin-bottom: 5%; max-width: 100%; line-height: 45px;}
+
+    .resent-design .cards{display: flex; align-items: center; gap: 20px; flex-wrap: wrap;}
+
+    .resent-design .cards .card{width: 330px; height: 450px; overflow: hidden; background-color:color-mix(in srgb, yellow 30%, white 70%); border: 10px solid color-mix(in srgb, blue 30%, white 70%); border-radius: 5px;}
+
+    .contact .contact-form .form form input{padding: 20px; border: none; border-radius: 5px; width: 100%; outline: none; background-color: color-mix(in srgb, yellow 30%, white 70%);}
+
+
+}
+
+/* for small phones */
+@media screen and (max-width:450px){
+
+    nav .nav-icon a{ background-color: wheat; padding: 15px; width: 250px; border-radius: 50px; border: 4px solid color-mix(in srgb, blue 30%, white 70%); font-size: 30px; font-weight: 700; letter-spacing: 3px; cursor: pointer; box-shadow: 3px 3px 3px 1px color-mix(in srgb, purple 50%, white 50%); color: color-mix(in srgb, purple 70%, white 30%);}
+
+    main{ margin-left: 10%; margin-right: 10%; display: flex; align-items: center; flex-direction: column; padding: 30px; justify-content: space-between;}
+
+    main .main-txt{ max-width: 300%; line-height: 90px; margin-bottom: 50px;}
+
+    main .main-txt h1{font-size: 4.5em; text-align: center;}
+
+    main .main-img{height: 300px; width: 300px; border-radius: 100%; padding: 20px; background-color: rgba(65, 43, 2, 0.183); display: flex; align-items: center; justify-content: center; }
+    
+    .info{ height: 300px; overflow-y: scroll;}
+
+    .info .info-txt p{color: color-mix(in srgb, purple 70%, white 30%); font-size: 20px; padding: 20px;}
+
+    .resent-design .resent-design-txt{margin-bottom: 5%; max-width: 100%; line-height: 45px;}
+
+    .resent-design .cards{display: flex; align-items:center; margin: 0%; gap: 20px; flex-direction: column-reverse; }
+
+    .resent-design .cards .card{width: 330px; height: 450px; overflow: hidden; background-color:color-mix(in srgb, yellow 30%, white 70%); border: 10px solid color-mix(in srgb, blue 30%, white 70%); border-radius: 5px;}
+
+    .contact .contact-form .form form input{padding: 20px; border: none; border-radius: 5px; width: 100%; outline: none; background-color: color-mix(in srgb, yellow 30%, white 70%);}
+
+
+}
+
+/* for tablets */
+@media (min-width: 768px) and (max-width: 1024px){
+    main{ margin-left: 10%; margin-right: 10%; display: flex; align-items: center; flex-direction: column; padding: 30px; justify-content: space-between;}
+
+    main .main-txt{ max-width: 100%; line-height: 90px; margin-bottom: 50px;}
+
+    main .main-txt h1{font-size: 4.5em; }
+
+    main .main-txt .btn button{display: flex; align-items: center; justify-content: center;}
+
+    .resent-design .resent-design-txt{margin-bottom: 5%; max-width: 100%; line-height: 45px;}
+
+    .resent-design .cards{display: flex; align-items: center; gap: 20px; flex-wrap: wrap;}
+
+    .contact .contact-form .form form input{padding: 20px; border: none; border-radius: 5px; width: 100%; outline: none; background-color: color-mix(in srgb, yellow 30%, white 70%);}
+
+
+}
